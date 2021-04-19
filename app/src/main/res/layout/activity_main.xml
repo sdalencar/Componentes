@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textViewCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cor" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/br" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pr" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/az" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="enviar"
+        android:text="@string/button"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        tools:ignore="MissingConstraints" />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/primerio" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/segundo" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terceiro" />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textViewEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textAlignment="center" />
+
+      <TextView
+        android:id="@+id/textViewSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switchs"
+        android:textAlignment="center" />
+
+    <Switch
+        android:id="@+id/switchTesteVerifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchs"
+        android:textOff="desligado"
+        android:textOn="ligado"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/textViewToogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switchs"
+        android:textAlignment="center" />
+
+
+    <ToggleButton
+        android:id="@+id/toggleTesteVerifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="desligado"
+        android:textOn="ligado" />
+
+    <TextView
+        android:id="@+id/tvVerifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verificasenha" />
+    <CheckBox
+        android:id="@+id/checkBoxVerifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verificasenha" />
+
+    <Button
+        android:id="@+id/btEnviarVerifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviar"
+        android:text="@string/enviar" />
+
+    <TextView
+        android:id="@+id/tvEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar" />
+
+    <ProgressBar
+        android:id="@+id/progressBarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+
+</LinearLayout>
+
+</ScrollView>

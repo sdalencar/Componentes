@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Componentes</string>
+    <string name="button">enviar</string>
+    <string name="resultado">TextView</string>
+    <string name="hint">"insira "</string>
+    <string name="cor">cor</string>
+    <string name="br">branco</string>
+    <string name="pr">preto</string>
+    <string name="az">azul</string>
+    <string name="terceiro">terceiro</string>
+    <string name="segundo">segundo</string>
+    <string name="primerio">primerio</string>
+    <string name="textview">TextView</string>
+    <string name="switchs">Switch</string>
+    <string name="verificasenha">VerificaSenha</string>
+    <string name="enviar">Enviar</string>
+    <string name="em_uma_escala_de_0_a_10">em uma escala de 0 a 10</string>
+    <string name="o_qu_o_divertido_voc">O quão divertido você é</string>
+
+</resources>
